@@ -153,7 +153,7 @@ else:
         print ('ilosc WYGRANYCH uzytkownika w %: ', data.count('W')/(data.count('W') + data.count('P'))*100, '%')
         print ('ilosc PRZEGRANYCH uzytkownika w %: ', data.count('P')/(data.count('W') + data.count('P'))*100, '%')
     else:
-        print ('ilosc WYGRANYCH uzytkownika w %: 0\nilosc WYGRANYCH uzytkownika w %: 0')
+        print ('ilosc WYGRANYCH uzytkownika w %: 0\nilosc PRZEGRANYCH uzytkownika w %: 0')
 
     print ('najdluzsza sekwencja WYGRANYCH uzytkownika:', a)
     print ('najdluzsza sekwencja PRZEGRANYCH uzytkownika:', c)
